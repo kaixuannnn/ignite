@@ -43,6 +43,18 @@ const GlobalStyles = createGlobalStyle`
     img{
         display: block
     }
+    input{
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
+    button{
+        font-size: 1.5rem;
+        border: none;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+        background-color: #ff7676;
+        color: white;
+    }
     `;
 
 export default GlobalStyles;
