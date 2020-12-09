@@ -7,12 +7,15 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
     html{
-        &::--webkit-scrollbar{
+        &::-webkit-scrollbar{
             width:0.5rem;
         }
-        &::--webkit-scrollbar-thumb{
+        &::-webkit-scrollbar-thumb{
             background-color: darkgrey;
         }
+        &::-webkit-scrollbar-track{
+        background-color: white;
+    }
     }
     body{
         font-family:'Montserrat',sans-serif;
@@ -22,6 +25,23 @@ const GlobalStyles = createGlobalStyle`
         font-size: 3rem;
         font-family: 'Abril Fatface',cursive;
         font-weight: lighter;
+    }
+    h3{
+        font-size: 1.3rem;
+        color: #333;
+        padding: 1.5rem 0rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 200%;
+        color: #696969;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+    img{
+        display: block
     }
     `;
 
