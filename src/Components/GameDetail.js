@@ -22,7 +22,7 @@ const GameDetail =({pathId})=>{
         console.log(element);
         if(element.classList.contains('shadow')){
             document.body.style.overflow="auto";
-            history.push('/')
+            history.push('/ignite')
         }
     }
     //get stars

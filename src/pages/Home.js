@@ -14,7 +14,7 @@ import {fadeIn} from '../animation'
 const Home =() =>{
     const location =useLocation();
     console.log(location.pathname);
-    const pathId = location.pathname.split("/")[2];
+    const pathId = location.pathname.split("/")[3];
     console.log(pathId);
     //fetch games
     const dispatch = useDispatch();

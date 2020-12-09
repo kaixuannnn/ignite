@@ -9,7 +9,7 @@ function App() {
     <div className="App"> 
       <GlobalStyles />
       <Nav />
-      <Route path={["/game/:id","/"]}>
+      <Route path={["/ignite/game/:id","/ignite"]}>
         <Home />
       </Route>
     </div>
